@@ -6,8 +6,6 @@ modified: 2016-12-29
 tags: [misc]
 ---
 
-# Initial Post
-
 This is the initial post to my blog **Hilbert Spaces**
 
 Writing for me is a painfully slow process, because I constantly feel the need to edit what I have written. I also dread that I will not have anything interesting to say, so why did I create this blog?
