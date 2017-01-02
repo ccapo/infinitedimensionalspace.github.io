@@ -3,6 +3,7 @@ layout: post
 title: Initial Post
 description: "Initial blog post to Infinite Dimensional Space"
 modified: 2016-12-29
+comments: true
 tags: [misc]
 ---
 
