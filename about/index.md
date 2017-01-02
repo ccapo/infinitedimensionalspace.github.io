@@ -17,7 +17,7 @@ I like to solve math and physics problems, usually by writing some code to eithe
 
 I like to create video games, particularly [rogue-like](https://en.wikipedia.org/wiki/Roguelike) games.
 
-I like to cooking, learning new recipes and techniques.
+I like cooking, particularly learning new recipes and techniques.
 
 I like reading books and watching movies from the science fiction or fantasy genre, but I am not averse to expanding my horizons.
 
