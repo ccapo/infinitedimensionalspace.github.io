@@ -7,7 +7,7 @@ comments: true
 tags: [chaos, code]
 ---
 
-I like playing with mathematical equations, particularly those dealing with [*chaos*](https://en.wikipedia.org/wiki/Chaos_theory).
+I like playing with equations, particularly those dealing with [*chaos*](https://en.wikipedia.org/wiki/Chaos_theory).
 
 There is a simple recurrence relation called the [*logistic map*](https://en.wikipedia.org/wiki/Logistic_map) that is usually pointed to as the archtypal example of chaotic behaviour emerging from a simple non-linear equation.
 
