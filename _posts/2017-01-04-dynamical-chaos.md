@@ -27,4 +27,4 @@ It produced a symmetrical version of the logistic map, centred on zero:
 
 The two recurrence relations appear to be quite different, but they seem to produce similar chaotic behaviour. This recurrence formula is actually based on [Kepler's equation](https://en.wikipedia.org/wiki/Kepler%27s_equation), and in fact it is possible to solve Kepler's equation using fixed point iteration after a simple re-arrangement of the equation. Though the figure above does **not** display solutions to Kepler's equation, if it did then there would be a **major** discrepancy between *theory* and *observations*.
 
-If you find this interesting, trying playing with the code and experiment for yourself. And if you come across an other interesting relations, please share I'd be curious to know.
+If you find this interesting, try playing with the code and experiment for yourself. And if you come across an other interesting relations, feel free to share it, I'd be curious to know.
