@@ -31,8 +31,48 @@ I wrote a small program to iterate the above formula for different values of *r*
 
 {% gist ccapo/a3329f30b1cd1c45f9f4a83348d06d76#file-naive8-c %}
 
+```
+$ ./naive8
+{"id":1,"data":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.","prevHash":"u","hash":"�","nonce":"!"}
+{"id":2,"data":"Interdum et malesuada fames ac ante ipsum primis in faucibus.","prevHash":"�","hash":"�","nonce":"!"}
+{"id":3,"data":"Nunc pharetra elit magna, eu accumsan lorem convallis et.","prevHash":"�","hash":"�","nonce":"!"}
+{"id":4,"data":"Ut eu elit eget orci tincidunt mattis eu id eros.","prevHash":"�","hash":"�","nonce":"!"}
+{"id":5,"data":"Proin condimentum neque nec dui tempor vehicula.","prevHash":"�","hash":"u","nonce":"v"}
+Hash Collision Found!
+```
+
 {% gist ccapo/a3329f30b1cd1c45f9f4a83348d06d76#file-xbee8-c %}
+
+```
+$ ./xbee8
+{"id":1,"data":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.","prevHash":"�","hash":"�","nonce":"!"}
+{"id":2,"data":"Interdum et malesuada fames ac ante ipsum primis in faucibus.","prevHash":"�","hash":"I","nonce":"!"}
+{"id":3,"data":"Nunc pharetra elit magna, eu accumsan lorem convallis et.","prevHash":"I","hash":"�","nonce":"!"}
+{"id":4,"data":"Ut eu elit eget orci tincidunt mattis eu id eros.","prevHash":"�","hash":"r","nonce":"!"}
+{"id":5,"data":"Proin condimentum neque nec dui tempor vehicula.","prevHash":"r","hash":"�","nonce":"s"}
+Hash Collision Found!
+```
 
 {% gist ccapo/a3329f30b1cd1c45f9f4a83348d06d76#file-fletcher16-c %}
 
+```
+$ ./fletcher16
+{"id":1,"data":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.","prevHash":"}","hash":"h","nonce":"!!"}
+{"id":2,"data":"Interdum et malesuada fames ac ante ipsum primis in faucibus.","prevHash":"h","hash":"#}","nonce":"!!"}
+{"id":3,"data":"Nunc pharetra elit magna, eu accumsan lorem convallis et.","prevHash":"#}","hash":"i","nonce":"!!"}
+{"id":4,"data":"Ut eu elit eget orci tincidunt mattis eu id eros.","prevHash":"i","hash":"P�","nonce":"!!"}
+{"id":5,"data":"Proin condimentum neque nec dui tempor vehicula.","prevHash":"P�","hash":"}","nonce":"p"}
+Hash Collision Found!
+```
+
 {% gist ccapo/a3329f30b1cd1c45f9f4a83348d06d76#file-fletcher32-c %}
+
+```
+$ ./fletcher32
+{"id":1,"data":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.","prevHash":"o��P","hash":"","nonce":"!!!!"}
+{"id":2,"data":"Interdum et malesuada fames ac ante ipsum primis in faucibus.","prevHash":"","hash":"���","nonce":"!!!!"}
+{"id":3,"data":"Nunc pharetra elit magna, eu accumsan lorem convallis et.","prevHash":"���","hash":"��O�","nonce":"!!!!"}
+{"id":4,"data":"Ut eu elit eget orci tincidunt mattis eu id eros.","prevHash":"��O�","hash":"ĳ�","nonce":"!!!!"}
+{"id":5,"data":"Proin condimentum neque nec dui tempor vehicula.","prevHash":"ĳ�","hash":"o��P","nonce":"���{"}
+Hash Collision Found!
+```
