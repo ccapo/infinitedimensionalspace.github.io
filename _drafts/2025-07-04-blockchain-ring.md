@@ -2,7 +2,7 @@
 layout: post
 title: Blockchain Ring POC
 description: "Blockchain, Ring, POC"
-modified: 2020-10-19
+modified: 2025-07-04
 comments: true
 tags: [blockchain, ring]
 ---
