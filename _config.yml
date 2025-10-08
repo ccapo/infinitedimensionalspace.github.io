@@ -10,6 +10,10 @@ url: https://ccapo.github.io
 remote_theme: pages-themes/hacker@v0.2.0
 plugins:
 - jekyll-remote-theme
+- jekyll-sitemap
+- jekyll-paginate
+- jekyll-gist
+- jekyll-feed
 show_downloads: false
 
 # Owner/author information
@@ -36,11 +40,6 @@ timezone:    America/Toronto
 future:      false  # publish future dated posts --  true, false (default) 
 highlighter: rouge
 markdown:    kramdown
-gems:
-  - jekyll-sitemap
-  - jekyll-paginate
-  - jekyll-gist
-  - jekyll-feed
 # sass:
 #   sass_dir: _sass
 #   style: compressed
