@@ -30,6 +30,6 @@ paginate_path: blog/page:num
 # Collections
 collections:
   posts:
-    title: Blog
+    title: 'Infinite Dimensional Space'
     output: true
     description: "musings of a meandering mind"
