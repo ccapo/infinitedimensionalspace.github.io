@@ -1,86 +1,32 @@
-title:            Infinite Dimensional Space
-description:      musings of a meandering mind
-# disqus_shortname: infinitedimensionalspace
-# reading_time:     true
-# words_per_minute: 200
-# Your site's domain goes here (eg: https://mmistakes.github.io, http://yourdomain.com, etc)
-# When testing locally leave blank or use http://localhost:4000
-# url: https://ccapo.github.io
+# Set theme
+remote_theme: daviddarnes/garth
 
-remote_theme: pages-themes/hacker@v0.2.0
+# File excludes
+exclude:
+- README.md
+- Gemfile
+- Gemfile.lock
+
+# Set plugins
 plugins:
-- jekyll-remote-theme
-- jekyll-sitemap
 - jekyll-paginate
-- jekyll-gist
-- jekyll-feed
-show_downloads: false
+- jekyll-remote-theme
 
-# Owner/author information
-owner:
-  name:           Chris Capobianco
-  avatar:         avatar.jpg
-  bio:            "Astronomy MSc*, Software Developer, Game Developer, Mead Maker"
-  email:
-  # Social networking links used in footer. Update and remove as you like.      
-  github: ccapo
-  linkedin: chriscapobianco
+# Site settings
+url: 'https://mydomain.com'
+baseurl: ''
+title: 'My blog'
+description: 'This is my new blog'
+permalink: pretty
+logo: "https://www.gravatar.com/avatar/6c0377abcf4da91cdd35dea4554b2a4c?s=136"
 
-# Background image to be tiled on all pages
-# background: 
-
-# Analytics and webmaster tools stuff goes here
-#google_analytics:
-#google_verify:
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-#bing_verify:
-
-# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/Toronto
-future:      false  # publish future dated posts --  true, false (default) 
-highlighter: rouge
-markdown:    kramdown
-# sass:
-#   sass_dir: _sass
-#   style: compressed
-
-# https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   /:categories/:title/
-
-# Amount of post to show on home page
+# Pagination
 paginate: 5
+paginate_path: blog/page:num
 
-kramdown:
-  input: GFM
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  enable_coderay: false
-
-include: 
-  - .htaccess
-exclude: 
-  - "*.less"
-  - "*.sublime-project"
-  - "*.sublime-workspace"
-  - .asset-cache
-  - .bundle
-  - .jekyll-assets-cache
-  - .sass-cache
-  - CHANGELOG
-  - CNAME
-  - Capfile
-  - Gemfile
-  - Gruntfile.js
-  - LICENSE
-  - README
-  - Rakefile
-  - config
-  - gulpfile.js
-  - lib
-  - log
-  - node_modules
-  - package.json
-  - spec
-  - tmp
+# Collections
+collections:
+  posts:
+    title: Blog
+    output: true
+    description: "There isn't much going on here yet, but watch this space"

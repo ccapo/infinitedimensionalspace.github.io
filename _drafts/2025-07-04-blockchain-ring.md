@@ -3,8 +3,9 @@ layout: post
 title: Blockchain Ring POC
 description: "Blockchain, Ring, POC"
 modified: 2025-07-04
-comments: true
-tags: [blockchain, ring]
+categories:
+- blockchain
+- ring
 ---
 
 I had an idea while working with blockchain technology for the past five years, and I wondered if it were possible to create a blockchain that formed a closed loop.

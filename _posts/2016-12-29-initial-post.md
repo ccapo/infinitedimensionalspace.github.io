@@ -2,9 +2,9 @@
 layout: post
 title: Initial Post
 description: "Initial blog post to Infinite Dimensional Space"
+categories:
+- general
 modified: 2016-12-29
-comments: true
-tags: [misc]
 ---
 
 This is the initial post to my blog **Infinite Dimensional Space**

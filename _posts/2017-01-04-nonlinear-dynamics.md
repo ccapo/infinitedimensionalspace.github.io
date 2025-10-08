@@ -3,8 +3,9 @@ layout: post
 title: Nonlinear Dynamics
 description: "Nonlinear Dynamics, Chaos, Logistic Map"
 modified: 2017-01-04
-comments: true
-tags: [nonlinear dynamics, chaos, code]
+categories:
+- chaos
+- nonlinear dynamics
 ---
 
 I like playing with equations, particularly those dealing with [*chaos*](https://en.wikipedia.org/wiki/Chaos_theory).
