@@ -10,15 +10,18 @@ exclude:
 # Set plugins
 plugins:
 - jekyll-paginate
+- jekyll-sitemap
+- jekyll-gist
+- jekyll-feed
 - jekyll-remote-theme
 
 # Site settings
-url: 'https://mydomain.com'
+url: 'https://infinitedimensionalspace.github.io/'
 baseurl: ''
-title: 'My blog'
-description: 'This is my new blog'
+title: 'Infinite Dimensional Space'
+description: 'musings of a meandering mind'
 permalink: pretty
-logo: "https://www.gravatar.com/avatar/6c0377abcf4da91cdd35dea4554b2a4c?s=136"
+logo: "favicon.ico"
 
 # Pagination
 paginate: 5
@@ -29,4 +32,4 @@ collections:
   posts:
     title: Blog
     output: true
-    description: "There isn't much going on here yet, but watch this space"
+    description: "musings of a meandering mind"
