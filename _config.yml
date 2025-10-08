@@ -20,8 +20,8 @@ url: 'https://infinitedimensionalspace.github.io/'
 baseurl: ''
 title: 'Infinite Dimensional Space'
 description: 'musings of a meandering mind'
-permalink: pretty
-logo: "favicon.ico"
+permalink: /:year/:title/
+logo: "https://infinitedimensionalspace.github.io/favicon.ico"
 
 # Pagination
 paginate: 5
